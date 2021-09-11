@@ -43,8 +43,7 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.1",
     "serverless": "^2.57.0",
-    "_serverless-single-page-app-plugin": "___file:./serverless-single-page-app-plugin___",
-    "__serverless-single-page-app-plugin": "___file:./.serverless_plugins/serverless-single-page-app-plugin___",
+    "serverless-single-page-app-plugin": "file:./.serverless_plugins/serverless-single-page-app-plugin",
     "typescript": "~4.3.5",
     "yup": "^0.29.1"
   },
