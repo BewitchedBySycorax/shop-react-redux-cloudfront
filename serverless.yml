@@ -1,4 +1,4 @@
-service: my-first-music-shop-app-sl # Stack name in CloudFormation
+service: my-first-music-shop-app-new-sl # Stack name in CloudFormation
 # app and org for use with dashboard.serverless.com
 #app: your-app-name
 #org: your-org-name
@@ -24,8 +24,8 @@ plugins:
 
 custom:
   client:
-    # bucketName: my-first-music-shop-app # Same as manually in AWS Console
-    bucketName: my-second-music-shop-app # To use bucketName from above the entire infrastructure must be removed
+    # bucketName: my-first-music-shop-new-app # Same as manually in AWS Console
+    bucketName: my-second-music-shop-new-app # To use bucketName from above the entire infrastructure must be removed
     distributionFolder: build # Same as build folder in project (content in AWS Bucket)
   s3LocalPath: ${self:custom.client.distributionFolder} ## Serverless-single-page-app-plugin configuration:
   s3BucketName: ${self:custom.client.bucketName}  # ! Same
